@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-08T07:51:35 IST" name="Practice Suite" finished-at="2021-09-08T07:51:53 IST" duration-ms="18335">
+  <suite started-at="2021-09-11T01:29:53 IST" name="Default suite" finished-at="2021-09-11T01:30:11 IST" duration-ms="18232">
     <groups>
     </groups>
-    <test started-at="2021-09-08T07:51:35 IST" name="Test Basics 1" finished-at="2021-09-08T07:51:53 IST" duration-ms="18335">
-      <class name="selenium.Day1">
-        <test-method signature="Start()[pri:0, instance:selenium.Day1@4efc180e]" started-at="2021-09-08T07:51:35 IST" name="Start" finished-at="2021-09-08T07:51:53 IST" duration-ms="18291" status="PASS">
+    <test started-at="2021-09-11T01:29:53 IST" name="Default test" finished-at="2021-09-11T01:30:11 IST" duration-ms="18232">
+      <class name="selenium.BrowserCommands">
+        <test-method signature="setup()[pri:0, instance:selenium.BrowserCommands@4efc180e]" started-at="2021-09-11T01:29:53 IST" name="setup" finished-at="2021-09-11T01:30:11 IST" duration-ms="18190" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Start -->
-      </class> <!-- selenium.Day1 -->
-    </test> <!-- Test Basics 1 -->
-  </suite> <!-- Practice Suite -->
+        </test-method> <!-- setup -->
+      </class> <!-- selenium.BrowserCommands -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
