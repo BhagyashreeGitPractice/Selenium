@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="15.994" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="25.315" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin"/>
@@ -63,5 +63,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Start" classname="selenium.Day1" time="15.994"/>
+  <testcase name="Start" classname="selenium.Day1" time="7.024"/>
+  <testcase name="setup" classname="selenium.BrowserCommands" time="18.291"/>
 </testsuite>

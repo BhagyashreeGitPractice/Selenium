@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Practice_Suite" title="selenium.Day1" hash-for-method="Start">Start</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_Suite" title="selenium.BrowserCommands" hash-for-method="setup">setup</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Practice_Suite -->
@@ -119,6 +124,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Practice_Suite" class="panel Practice_Suite">
+          <div class="suite-Practice_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.BrowserCommands</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setup">
+                  </a> <!-- setup -->
+                  <span class="method-name">setup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Suite-class-passed -->
           <div class="suite-Practice_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -147,6 +167,7 @@
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test Basics 1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;selenium.Day1&quot;/&gt;
+      &lt;class name=&quot;selenium.BrowserCommands&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test Basics 1 --&gt;
 &lt;/suite&gt; &lt;!-- Practice Suite --&gt;
@@ -160,7 +181,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test Basics 1 (1 class)</span>
+                <span class="test-name">Test Basics 1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,16 +207,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Start')
-data.setCell(0, 2, 'selenium.Day1')
-data.setCell(0, 3, 15989);
+data.setCell(0, 1, 'setup')
+data.setCell(0, 2, 'selenium.BrowserCommands')
+data.setCell(0, 3, 18291);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Start')
+data.setCell(1, 2, 'selenium.Day1')
+data.setCell(1, 3, 7022);
 window.suiteTableData['Practice_Suite']= { tableData: data, tableDiv: 'times-div-Practice_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Practice_Suite">
               </div> <!-- times-div-Practice_Suite -->
             </div> <!-- times-div -->
@@ -225,6 +250,13 @@ return data;
               <div class="test-method">
                 <span class="method-name">Start</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.BrowserCommands</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setup</span>
+                <span class="method-start">7026 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

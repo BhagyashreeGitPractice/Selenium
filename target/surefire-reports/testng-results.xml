@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Practice Suite" duration-ms="16022" started-at="2021-09-08T07:56:50 IST" finished-at="2021-09-08T07:57:06 IST">
+  <suite name="Practice Suite" duration-ms="25349" started-at="2021-09-11T07:33:29 IST" finished-at="2021-09-11T07:33:54 IST">
     <groups>
     </groups>
-    <test name="Test Basics 1" duration-ms="16022" started-at="2021-09-08T07:56:50 IST" finished-at="2021-09-08T07:57:06 IST">
+    <test name="Test Basics 1" duration-ms="25349" started-at="2021-09-11T07:33:29 IST" finished-at="2021-09-11T07:33:54 IST">
+      <class name="selenium.BrowserCommands">
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenium.BrowserCommands@4b952a2d]" name="setup" duration-ms="18291" started-at="2021-09-11T07:33:36 IST" finished-at="2021-09-11T07:33:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- selenium.BrowserCommands -->
       <class name="selenium.Day1">
-        <test-method status="PASS" signature="Start()[pri:0, instance:selenium.Day1@27c20538]" name="Start" duration-ms="15989" started-at="2021-09-08T07:56:50 IST" finished-at="2021-09-08T07:57:06 IST">
+        <test-method status="PASS" signature="Start()[pri:0, instance:selenium.Day1@72d818d1]" name="Start" duration-ms="7022" started-at="2021-09-11T07:33:29 IST" finished-at="2021-09-11T07:33:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
