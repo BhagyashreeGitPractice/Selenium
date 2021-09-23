@@ -23,6 +23,7 @@ WebElement checkBox =driver.findElement(By.cssSelector("label[for='layered_id_at
 if(!checkBox.isSelected())
 {
 	checkBox.click();
+	System.out.println("Successfully verified checkBox");
 }
 
  
